@@ -6,9 +6,9 @@ import importlib
 import numpy as np
 import hashlib, math
 from tqdm import tqdm
-from uvr5_pack.lib_v5 import spec_utils
-from uvr5_pack.utils import _get_name_params, inference
-from uvr5_pack.lib_v5.model_param_init import ModelParameters
+from rvc_fork.uvr5_pack.lib_v5 import spec_utils
+from rvc_fork.uvr5_pack.utils import _get_name_params, inference
+from rvc_fork.uvr5_pack.lib_v5.model_param_init import ModelParameters
 from scipy.io import wavfile
 
 
